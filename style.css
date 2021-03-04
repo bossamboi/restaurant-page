@@ -1,0 +1,37 @@
+body {
+    background-image: url("img/chumwich.jpg");
+    background-color: #cccccc;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    height: 910px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+h1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 8px;
+    color: #b81c0c;
+    background-color: #5f8a81;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1152px;
+    height: 150px;
+    margin-top: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: krabby-patty-font;
+    font-weight: normal;
+    font-size: 85px;
+}
+
+@font-face {
+    font-family: 'krabby-patty-font';
+    src: url('fonts/Krabby\ Patty.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
