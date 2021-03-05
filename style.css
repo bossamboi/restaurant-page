@@ -11,27 +11,88 @@ body {
 
 }
 
-h1 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+#heading {
+    display: block;
+    text-align: center;
     padding-top: 8px;
     color: #b81c0c;
-    background-color: #5f8a81;
+    background-color: #8cb7ad;
     margin-right: auto;
     margin-left: auto;
     width: 1152px;
     height: 150px;
     margin-top: 0;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-family: krabby-patty-font;
+
+}
+
+h1{
     font-weight: normal;
     font-size: 85px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: krabby-patty;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 12px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: krabby-patty;
+
+}
+
+#info {
+    /* background-color: rgba(87, 83, 144, 0.5); */
+    /* background-color: rgba(166 , 143, 59, 0.7); */
+    background-color: rgba(140, 183, 173, 0.7);
+    width: 550px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 6%;
+    font-family: krabby-patty;
+    font-weight: lighter;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    color: #b81c0c;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: #8cb7ad;
+    border-width: 1px;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+#plankton {
+    border-radius: 50%;
+    width: 275px;
 }
 
 @font-face {
-    font-family: 'krabby-patty-font';
+    font-family: 'krabby-patty';
     src: url('fonts/Krabby\ Patty.ttf');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'chum';
+    src: url('fonts/Chum.ttf');
+    font-weight: normal;
+    font-style:normal;
 }
