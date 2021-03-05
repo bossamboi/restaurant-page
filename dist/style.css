@@ -83,6 +83,18 @@ h2 {
     width: 275px;
 }
 
+#menu {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 6%;
+    opacity: 0.8;
+    border-style: solid;
+    border-color: #8cb7ad;
+    border-width: 1px;
+}
+
 @font-face {
     font-family: 'krabby-patty';
     src: url('fonts/Krabby\ Patty.ttf');

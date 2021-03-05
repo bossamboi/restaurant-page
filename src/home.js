@@ -44,5 +44,7 @@ function loadHome() {
 
 export {
     loadHeading,
-    loadHome
+    loadHome,
+    createNode,
+    content
  }
