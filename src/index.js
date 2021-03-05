@@ -1,1 +1,4 @@
-console.log('i like butts and i cannot lie');
+import {loadHeading, loadHome} from './home'
+
+loadHeading();
+loadHome();
