@@ -15,6 +15,14 @@ const homeTab = createNode('div', '', '', 'home');
 const menuTab = createNode('div', '', '', 'menu');
 const contactTab = createNode('div', '', '', 'contact');
 
+homeTab.classList.add('nav-button');
+homeTab.classList.add('hvr-bob');
+menuTab.classList.add('nav-button');
+menuTab.classList.add('hvr-bob');
+contactTab.classList.add('nav-button');
+contactTab.classList.add('hvr-bob');
+
+
 const infoBox = createNode('div', 'info', '', '');
 const announcement = createNode('h2', '', '', 'NOW SELLING KRABBY PATTIES');
 const ownerPix = createNode('IMG', 'plankton', 'img/plankton.jpg', '');
@@ -46,5 +54,9 @@ export {
     loadHeading,
     loadHome,
     createNode,
-    content
+    content,
+    infoBox,
+    homeTab,
+    menuTab,
+    contactTab
  }
